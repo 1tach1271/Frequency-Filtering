@@ -1,0 +1,68 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Google Colab-specific temporary files
+.colab/
+.colabmetadata.json
+
+# Ignore logs and runtime files
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.bz2
+*.zip
+*.tar
+*.tar.gz
+*.sqlite
+
+# Ignore dataset or output files (if any)
+datasets/
+*.csv
+*.tsv
+*.json
+*.h5
+*.npz
+*.pkl
+*.model
+*.weights
+*.ckpt
+*.pth
+
+# Ignore configuration or sensitive files
+*.env
+.env.*
+credentials.json
+config.json
+
+# Ignore your image or output directories
+output/
+Images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# Ignore any other temporary files
+*.tmp
+*.swp
+*.bak
+*.old
